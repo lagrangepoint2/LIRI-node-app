@@ -94,10 +94,7 @@ function movieThis() {
 //*****************************************************************************
 //Do-what-it-says**************************************************************
 //*****************************************************************************
-function doIt() {
-    // var doIt = require("./random.txt");
-
-
+function whatItSays() {
     fs.readFile('random.txt', 'utf8', function (error, data) {
         if (error) {
             return console.log(error);
@@ -105,10 +102,6 @@ function doIt() {
 
         var songTitle = data.split(',')[1];
         spotify(songTitle);
-
-        // console.log(songTitle);
-        // console.log(data);
-
     });
 
 }
@@ -133,5 +126,5 @@ if (firstUserInput === 'my-tweets') {
         movieThis();
     }
 } else if (firstUserInput === 'do-what-it-says') {
-    doIt();
+    whatItSays();
 }
