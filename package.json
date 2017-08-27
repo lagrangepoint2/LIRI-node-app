@@ -1,0 +1,22 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagrangepoint2/LIRI-node-app.git"
+  },
+  "author": "Thongvun Nak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lagrangepoint2/LIRI-node-app/issues"
+  },
+  "homepage": "https://github.com/lagrangepoint2/LIRI-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7"
+  }
+}
