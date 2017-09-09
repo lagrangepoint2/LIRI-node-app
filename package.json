@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/lagrangepoint2/LIRI-node-app#readme",
   "dependencies": {
-    "node-spotify-api": "^1.0.7"
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
   }
 }
